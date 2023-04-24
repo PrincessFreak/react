@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  background: peachpuff url(./images/pngstars.png);
+  background-size:cover;
+  background-position: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.carousel{
+  padding-top:50px;
+  padding-bottom:50px;
+  padding-left:10px;
+  padding-right:10px;
+}
+.App-link {
+  color: #61dafb;
+}
+.header{
+  height:150px;
+}
+.header__logo{
+  display:flex;
+  align-items:center;
+  column-gap:20px;
+  height:100%;
+}
+.header__logo img{
+  height:100%;
+ 
+}
+.header__logo p{
+  font-size:15px;
+  color: pink;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  -moz-text-decoration-style: dashed;
+}
+.footer{
+  display:flex;
+  justify-content: space-between;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
